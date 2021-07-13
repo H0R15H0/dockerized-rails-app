@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Versions
+```
+ruby '2.7.2'
+rails '6.0.4'
+```
 
-Things you may want to cover:
+# Requirement
+```
+Docker
+docker-compose
+```
 
-* Ruby version
+# Usage
+``` bash
+$ git clone git@github.com:H0R15H0/dockerized-rails-api.git YOUR_APP_NAME
+$ cd YOUR_APP_NAME
+$ docker-compose up --build
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Change remote repository
+```
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+```
